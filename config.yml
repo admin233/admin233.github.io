@@ -1,0 +1,73 @@
+baseURL: 'https://admin233.github.io'
+title: APTX4869
+theme: hugo-theme-ladder
+description: 'farm tourism'
+homepage: 'https://admin233.github.io'
+defaultContentLanguage: 'zh'
+paginate: 10
+hasCJKLanguage: true
+copyright: "admin233 All rights reserved"
+Author:
+  name: "admin233"
+  email: "cprogramfiles@tom.com"
+menu:
+  main:
+    - name: Blog
+      url: /blog
+      weight: 1
+    - name: Art
+      url: /art
+      weight: 2
+    - name: Tags
+      url: /tags
+      weight: 3
+    - name: Archive
+      url: /archives
+      weight: 4
+    - name: Guest
+      url: /guestbook
+      weight: 5
+params:
+  brand: HOME
+  avatarURL: /images/muku_big.jpg
+  author: admin233
+  authorDescription: Tech-infused Agritainment
+  info: help yourself
+  favicon: /images/avatar.png
+  options:
+    showDarkMode: true
+    enableImgZooming: true
+    enableMultiLang: true
+    showMetaTags: true
+  darkModeTheme: data-dark-mode
+languages:
+  en:
+    languageName: EN
+  zh:
+    languageName: 中
+    author: Ladder 主题
+    authorDescription: 科技农家乐
+    info: 请自助
+    guestbook:
+      title: 留言板
+      description: 您的评论，会让该网站更精彩！
+    menu:
+      main:
+        - name: 文章
+          url: /blog
+          weight: 1
+        - name: 生活
+          url: /art
+          weight: 2
+        - name: 标签
+          url: /tags
+          weight: 3
+        - name: 历史
+          url: /archives
+          weight: 3
+        - name: 留言板
+          url: /guestbook
+          weight: 4
+taxonomies:
+  series: series
+  tag: tags
